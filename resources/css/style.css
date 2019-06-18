@@ -1,7 +1,58 @@
+/* The * selector selects all elements.
 *{
 
 }
+*/
+:root{
+    --card-bg-color: gray;
+    --body-bg-color: white;
+    background-color: aqua;
+}
 
 body{
-    
+    background-color: var(--body-bg-color);
+}
+
+#header{
+    background-color: var(--card-bg-color);
+}
+
+header{
+
+}
+
+h1{
+
+}
+
+#maps{
+
+}
+
+#natFronts{
+    background-color: var(--card-bg-color);
+}
+
+#stRdr{
+    background-color: var(--card-bg-color);
+}
+
+#forecast{
+
+}
+
+#current{
+    background-color: var(--card-bg-color);
+}
+
+#oneDay{
+    background-color: var(--card-bg-color);
+}
+
+#twoDay{
+    background-color: var(--card-bg-color);
+}
+
+#threeDay{
+    background-color: var(--card-bg-color);
 }

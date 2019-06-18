@@ -6,4 +6,4 @@
 ## Development
 - Lang: HTML/CSS/JS
 - To Do:
-- [] Come up with a todo list.
+- Come up with a todo list.
