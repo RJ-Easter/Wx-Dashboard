@@ -1,12 +1,14 @@
-/* The * selector selects all elements.
-*{
 
+*{
+    padding: 5px;
+    margin: 5px;
 }
-*/
+
 :root{
     /* Variables */
-    --panel-bg-color: rgb(182, 182, 182);
-    --card-bg-color: gray;
+    --panel-bg-color: white;
+    --card-bg-color: white;
+    --shadow-color:  rgb(218, 218, 218);
 
     /* HTML Doc Properties*/
 }
@@ -15,19 +17,20 @@ body{
     
 }
 
-
 .panel{
-    
+    box-shadow: 3px 3px 3px var(--shadow-color);
 }
 
 .card{
-    box-shadow: 3px 3px 3px var(--panel-bg-color);
+    box-shadow: 3px 3px 3px var(--shadow-color);
 }
 
 #head{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex: 0 0 100%;
+    height: 10vh;
 }
 
 header{
@@ -42,13 +45,17 @@ h1{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    height: 48vh;
+    
 }
 
 #natFronts{
+    flex: 0 0 48%;
     background-color: var(--card-bg-color);
 }
 
 #stRdr{
+    flex: 0 0 48%;
     background-color: var(--card-bg-color);
 }
 
@@ -56,20 +63,25 @@ h1{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    height: 30vh;
 }
 
 #current{
+    flex: 0 0 23%;
     background-color: var(--card-bg-color);
 }
 
 #oneDay{
+    flex: 0 0 23%;
     background-color: var(--card-bg-color);
 }
 
 #twoDay{
+    flex: 0 0 23%;
     background-color: var(--card-bg-color);
 }
 
 #threeDay{
+    flex: 0 0 23%;
     background-color: var(--card-bg-color);
 }
