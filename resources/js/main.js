@@ -1,2 +1,2 @@
-document.title = 'Testing';
-document.getElementById("header").innerText = "Testing";
+document.title = 'Wx Dashboard | 87121';
+document.getElementById("header").innerText = "Weather Dashboard | 87121";
