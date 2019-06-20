@@ -4,17 +4,30 @@
 }
 */
 :root{
+    /* Variables */
+    --panel-bg-color: rgb(182, 182, 182);
     --card-bg-color: gray;
-    --body-bg-color: white;
-    background-color: aqua;
+
+    /* HTML Doc Properties*/
 }
 
 body{
-    background-color: var(--body-bg-color);
+    
 }
 
-#header{
-    background-color: var(--card-bg-color);
+
+.panel{
+    
+}
+
+.card{
+    box-shadow: 3px 3px 3px var(--panel-bg-color);
+}
+
+#head{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 header{
@@ -26,7 +39,9 @@ h1{
 }
 
 #maps{
-
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 #natFronts{
@@ -38,7 +53,9 @@ h1{
 }
 
 #forecast{
-
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 #current{
