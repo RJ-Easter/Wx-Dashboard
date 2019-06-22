@@ -28,7 +28,7 @@ V1.0
 - To Do (V0.1):
     - [x] UI HTML Skeleton
     - [x] CSS basic style for initial dev.
-    - [] JS hook-ups with HTML elements
+    - [x] JS Variables for HTML element contents
     - [] JS data pull-down
     - [] JS data formatting
     - [] JS data push to HTML
