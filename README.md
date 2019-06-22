@@ -1,6 +1,6 @@
 # Wx Dashboard
 
-    This website is meant to display weather data, in full screen, on the TV in the livingroom of my RV. The weather data contains: National Frontal Patterns, Local Weather(Wx) Radar, Current: Temp, Dew Point, Humidity, Barometric Pressure, % Chance of Rain, and Sky Conditions, 1/2/3-Day Forcasts of High/Low Temp, Sky Conditions, and % Chance of Rain.
+This website is meant to display weather data, in full screen, on the TV in the livingroom of my RV. The weather data contains: National Frontal Patterns, Local Weather(Wx) Radar, Current: Temp, Dew Point, Humidity, Barometric Pressure, % Chance of Rain, and Sky Conditions, 1/2/3-Day Forcasts of High/Low Temp, Sky Conditions, and % Chance of Rain.
 
 ## Version Path
 V0.1
